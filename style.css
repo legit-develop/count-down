@@ -20,3 +20,22 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+.countdown-container {
+  display: flex;
+  text-align: center;
+}
+
+.heading {
+  font-size: 4rem;
+}
+
+.big-text {
+  font-size: 6rem;
+  line-height: 1;
+  margin: 0 2rem;
+}
+
+.span-text {
+  font-size: 1.5rem;
+}
