@@ -27,15 +27,26 @@ body {
 }
 
 .heading {
-  font-size: 4rem;
+  font-size: 2rem;
+  margin: 0;
 }
 
 .big-text {
-  font-size: 6rem;
+  font-size: 4rem;
   line-height: 1;
   margin: 0 2rem;
 }
 
 .span-text {
   font-size: 1.5rem;
+}
+
+.main-div {
+  border: 1px solid black;
+  margin: 0 2px;
+  box-sizing: border-box;
+}
+
+.seconds-c {
+  max-width: 300px;
 }
