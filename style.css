@@ -1,11 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,300;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
 
 body {
   margin: 0;
   padding: 0;
   background: url("./media/pic-2.jpg");
   background-size: cover;
-  font-family: "Poppins", sans-serif;
+  font-family: "Righteous", cursive;
   min-height: 100vh;
 }
 
@@ -42,7 +43,6 @@ body {
 }
 
 .main-div {
-  border: 1px solid black;
   margin: 0 2px;
   box-sizing: border-box;
 }
