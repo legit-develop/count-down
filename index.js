@@ -20,10 +20,14 @@ function countDown() {
 
   daysEl.innerText = days;
   hoursEl.innerText = hours;
-  minsEl.innerText = minutes;
-  secondsEl.innerText = seconds;
+  minsEl.innerText = formatTime(minutes);
+  secondsEl.innerText = formatTime(seconds);
+}
+
+function formatTime(time) {
+  return time < 10 ? `0${time}` : time;
 }
 
 countDown();
 
-//setInterval(countDown, 1000);
+setInterval(countDown, 1000);
